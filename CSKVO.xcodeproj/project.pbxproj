@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55A93986206B723200E74A11 /* NSObject+CSKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A93985206B723200E74A11 /* NSObject+CSKVC.m */; };
 		AE65A92D20667C9B00501D54 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65A92C20667C9B00501D54 /* Person.m */; };
 		AED3E00D20654776000F1FD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AED3E00C20654776000F1FD9 /* AppDelegate.m */; };
 		AED3E01020654776000F1FD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED3E00F20654776000F1FD9 /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55A93984206B723200E74A11 /* NSObject+CSKVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CSKVC.h"; sourceTree = "<group>"; };
+		55A93985206B723200E74A11 /* NSObject+CSKVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CSKVC.m"; sourceTree = "<group>"; };
 		AE65A92B20667C9B00501D54 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		AE65A92C20667C9B00501D54 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		AED3E00820654776000F1FD9 /* CSKVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSKVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +73,8 @@
 				AED3E00F20654776000F1FD9 /* ViewController.m */,
 				AED3E0212065478E000F1FD9 /* NSObject+CSKVO.h */,
 				AED3E0222065478E000F1FD9 /* NSObject+CSKVO.m */,
+				55A93984206B723200E74A11 /* NSObject+CSKVC.h */,
+				55A93985206B723200E74A11 /* NSObject+CSKVC.m */,
 				AE65A92B20667C9B00501D54 /* Person.h */,
 				AE65A92C20667C9B00501D54 /* Person.m */,
 				AED3E01120654776000F1FD9 /* Main.storyboard */,
@@ -154,6 +159,7 @@
 			files = (
 				AED3E0232065478E000F1FD9 /* NSObject+CSKVO.m in Sources */,
 				AED3E01020654776000F1FD9 /* ViewController.m in Sources */,
+				55A93986206B723200E74A11 /* NSObject+CSKVC.m in Sources */,
 				AE65A92D20667C9B00501D54 /* Person.m in Sources */,
 				AED3E01B20654776000F1FD9 /* main.m in Sources */,
 				AED3E00D20654776000F1FD9 /* AppDelegate.m in Sources */,

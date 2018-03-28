@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Person.h"
 #import "NSObject+CSKVO.h"
+#import "NSObject+CSKVC.h"
 @interface ViewController ()
 
 @end
@@ -19,13 +20,21 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     Person  * p = [[Person alloc]init];
-    p.name = @"Tom";
-    [p cs_addOberserver:self keyPath:@"name" callBack:^(id observer, NSString *keyPath, id oldValue, id newValue) {
-        NSLog(@"oldValue == %@ ,newValue == %@" ,oldValue ,newValue);
-    }];
-    p.name = @"Bob";
-    NSLog(@"=== %@", [p class]);
+    
+//    p.name = @"Tom";
+//    [p cs_addOberserver:self keyPath:@"name" callBack:^(id observer, NSString *keyPath, id oldValue, id newValue) {
+//        NSLog(@"oldValue == %@ ,newValue == %@" ,oldValue ,newValue);
+//    }];
+//    p.name = @"Bob";
+//    NSLog(@"=== %@", [p class]);
+    
+    
+//    [p setValue:@"bob" forKey:@"name"];
+    [p csSetValue:@"bob" forKey:@"name"];
+    NSLog(@"name === %@",p.name);
+    
 }
+
 
 
 
