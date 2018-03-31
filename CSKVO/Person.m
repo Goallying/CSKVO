@@ -10,4 +10,25 @@
 
 @implementation Person
 
+- (instancetype)init{
+    if (self = [super init]) {
+        _pet = [Pet new];
+    }
+    return self ;
+}
++ (BOOL)automaticallyNotifiesObserversForKey:(NSString *)key{
+    
+    return YES ;
+}
+
++ (NSSet<NSString *> *)keyPathsForValuesAffectingValueForKey:(NSString *)key{
+    
+    if ([key isEqualToString:@"pet"]) {
+       return [NSSet setWithObjects:@"_pet.petName", nil];
+    }
+    return [super keyPathsForValuesAffectingValueForKey:key];
+    
+}
+
+
 @end

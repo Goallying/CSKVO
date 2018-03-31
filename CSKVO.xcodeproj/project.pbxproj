@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55A93986206B723200E74A11 /* NSObject+CSKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A93985206B723200E74A11 /* NSObject+CSKVC.m */; };
+		AE45D5A9206FB89600C39416 /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = AE45D5A8206FB89600C39416 /* Pet.m */; };
 		AE65A92D20667C9B00501D54 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65A92C20667C9B00501D54 /* Person.m */; };
 		AED3E00D20654776000F1FD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AED3E00C20654776000F1FD9 /* AppDelegate.m */; };
 		AED3E01020654776000F1FD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED3E00F20654776000F1FD9 /* ViewController.m */; };
@@ -21,6 +22,8 @@
 /* Begin PBXFileReference section */
 		55A93984206B723200E74A11 /* NSObject+CSKVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CSKVC.h"; sourceTree = "<group>"; };
 		55A93985206B723200E74A11 /* NSObject+CSKVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CSKVC.m"; sourceTree = "<group>"; };
+		AE45D5A7206FB89600C39416 /* Pet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pet.h; sourceTree = "<group>"; };
+		AE45D5A8206FB89600C39416 /* Pet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pet.m; sourceTree = "<group>"; };
 		AE65A92B20667C9B00501D54 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		AE65A92C20667C9B00501D54 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		AED3E00820654776000F1FD9 /* CSKVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSKVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +80,8 @@
 				55A93985206B723200E74A11 /* NSObject+CSKVC.m */,
 				AE65A92B20667C9B00501D54 /* Person.h */,
 				AE65A92C20667C9B00501D54 /* Person.m */,
+				AE45D5A7206FB89600C39416 /* Pet.h */,
+				AE45D5A8206FB89600C39416 /* Pet.m */,
 				AED3E01120654776000F1FD9 /* Main.storyboard */,
 				AED3E01420654776000F1FD9 /* Assets.xcassets */,
 				AED3E01620654776000F1FD9 /* LaunchScreen.storyboard */,
@@ -157,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE45D5A9206FB89600C39416 /* Pet.m in Sources */,
 				AED3E0232065478E000F1FD9 /* NSObject+CSKVO.m in Sources */,
 				AED3E01020654776000F1FD9 /* ViewController.m in Sources */,
 				55A93986206B723200E74A11 /* NSObject+CSKVC.m in Sources */,
