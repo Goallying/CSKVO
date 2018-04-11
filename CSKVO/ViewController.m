@@ -31,8 +31,8 @@
     
     
 //    [p setValue:@"bob" forKey:@"name"];
-//    [p csSetValue:@"bob" forKey:@"name"];
-//    NSLog(@"name === %@",p.name);
+    [p csSetValue:@"bob" forKey:@"name"];
+    NSLog(@"name === %@",p.name);
     
 //    [p.pet cs_addOberserver:self keyPath:@"petName" callBack:^(id observer, NSString *keyPath, id oldValue, id newValue) {
 //
@@ -40,8 +40,8 @@
 //    }];
 //    p.pet.petName = @"puppy";
     
-    [p addObserver:self forKeyPath:@"pet" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
-    p.pet.petName = @"puppy";
+//    [p addObserver:self forKeyPath:@"pet" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
+//    p.pet.petName = @"puppy";
 
 }
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
